@@ -1,0 +1,56 @@
+{"intents": [
+  {"tag": "sapa",
+  "patterns": ["hallo", "hei", "hai", "halo"],
+  "responses": ["Hallo! Ada yang bisa dibantu?", "Apakah ada yang bisa saya bantu?"]
+  },
+
+  {"tag": "nama",
+  "patterns": ["siapa namamu", "nama kamu", "kamu siapa", "ini siapa"],
+  "responses": ["Saya adalah Hairbot, asisten digital yang siap membantu kamu"]
+  },
+
+  {"tag": "tanya",
+  "patterns": ["aku mau tanya", "saya mau bertanya", "aku bertanya", "saya bertanya", "mau nanya dong"],
+  "responses": ["Silakan! mau bertanya tentang apa?"]
+  },
+
+  {"tag": "hairstyle",
+  "patterns": ["aplikasi hair style recommendation itu apa", "apa itu hairstyle", "aplikasi hair style itu apa", "ini aplikasi apa"],
+  "responses": ["Aplikasi Hair style recommendation yaitu aplikasi yang digunakan untuk mempermudah dalam memilih model rambut yang cocok untuk pengguna"]
+  },
+
+  {"tag": "aplikasi",
+  "patterns": ["aplikasi ini punya fitur apa", "apa saja fitur yang ada di aplikasi ini", "fitur aplikasi apa aja"],
+  "responses": ["Aplikasi ini mempunyai fitur seperti: fitur pengambilan gambar melalui file device maupun camera, pemilihan model rambut dan chatbot"]
+  },
+
+  {"tag": "cara",
+  "patterns": ["cara kerja", "gimana cara kerjannya", "bagaimana cara menjalankan aplikasi ini", "penggunaan aplikasi", "caranya gimana"],
+  "responses": ["Cara kerja aplikasi yaitu user mengambil gambar, lalu user dapat memilih model rambut yang direkomendasikan"]
+  },
+
+  {"tag": "jumlah",
+  "patterns": ["berapa jumlah rekomedasi model rambut", "jumlah model rambut", "jumlah rekomendasi"],
+  "responses": ["Jumlah model rambut yang dapat direkomendasikan adalah 4 model rambut"]
+  },
+
+  {"tag": "wajah",
+  "patterns": ["macam bentuk wajah", "apa saja bentuk wajahnya", "ada berapa macam bentuk wajah"],
+  "responses": ["Bentuk wajah ada 7 diantara lain bentuk wajah diamond, heart, oblong, oval, round, square, dan triangle"]
+  },
+
+  {"tag": "no-question",
+  "patterns": [""],
+  "responses": ["Saya tidak mengerti yang kamu maksud"]
+  },
+
+  {"tag": "terima kasih",
+  "patterns": ["thanks", "Thank you", "terimakasih", "makasih", "terimaksih untuk bantuannya"],
+  "responses": ["Terimakasih Kembali"]
+  },
+	
+  {"tag": "penutup",
+  "patterns": ["ok", "oke", "bye", "sampai jumpa"],
+  "responses": ["Senang berbincang denganmu, sampai jumpa"]
+  }
+]}
